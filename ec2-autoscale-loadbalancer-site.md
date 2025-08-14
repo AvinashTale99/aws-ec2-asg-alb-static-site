@@ -31,7 +31,7 @@ systemctl enable httpd
 usermod -aG apache ec2-user
 chmod 755 /var/www/html
 cd /var/www/html
-git clone https://github.com/atulkamble/aws-ec2-s3-static-website.git
+git clone https://github.com/AvinashTale99/ec2-static-website.git
 cp -r aws-ec2-s3-static-website/* /var/www/html/
 rm -rf aws-ec2-s3-static-website
 echo "<h1>Hello from $(hostname -f) webserver</h1>" >> /var/www/html/index.html
@@ -87,3 +87,4 @@ To avoid charges:
 **Avinash Tale**  
 GitHub: [AvinashTale99](https://github.com/AvinashTale99)  
 Email: aatale99@gmail.com
+
